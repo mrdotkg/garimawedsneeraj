@@ -1,0 +1,252 @@
+/********************************************************************************************
+ 0. STYLES FOR MOBILE DEVICES - media screen max-width: 1024px (removes animation for mobile devices) (line 15)
+ 1. STYLES FOR MOBILE DEVICES - media screen max width: 400px (line 51)
+ 2. STYLES FOR MOBILE DEVICES - media screen min width: 400px / max width: 568px (line 287)
+ 3. STYLES FOR MOBILE DEVICES - media screen min width: 568px / max width: 600px (line 518)
+ 4. STYLES FOR MOBILE DEVICES - media screen min width: 600px / max width: 700px (line 742)
+ 5. STYLES FOR MOBILE DEVICES - media screen min width: 700px / max width: 768px (line 966)
+ 6. STYLES FOR MOBILE DEVICES - media screen min width: 768px / max width: 1024px (line 1193)
+ 7. STYLES FOR MOBILE DEVICES - media screen min width: 1024px / max width: 1280px (line 1418)
+ 8. STYLES FOR MOBILE DEVICES - media screen min width: 1280px / max width: 1366px (line 1666)
+ 9. STYLES FOR MOBILE DEVICES - media screen min width: 1336px / max width: 1536px (line 1678) 
+ 10. STYLES FOR MOBILE DEVICES - media screen min width: 1536px / max width: 1680px (line 1931)
+*********************************************************************************************/
+
+/*-- 0. STYLES FOR MOBILE DEVICES - media screen max-width: 1024px --*/
+/* -- removes animation for mobile devices --*/
+@media screen and (max-width: 1024px) {
+	
+	.animated {
+	-webkit-animation-fill-mode: none !important;
+	-moz-animation-fill-mode: none !important;
+	-ms-animation-fill-mode: none !important;
+	-o-animation-fill-mode: none !important;
+	animation-fill-mode: none !important;
+	-webkit-animation-duration: 0 !important;
+	-moz-animation-duration: 0 !important;
+	-ms-animation-duration: 0 !important;
+	-o-animation-duration: 0 !important;
+	animation-duration: 0 !important;
+	}
+	
+	.flash, .shake, .bounce, .tada, .swing, .wobble, .pulse, .animated.flip, .flipInX, .flipOutX, .flipInY, .flipOutY, .fadeIn, .fadeInUp, .fadeInDown, .fadeInLeft, .fadeInRight, .fadeInUpBig, .fadeInDownBig, .fadeInLeftBig, .fadeInRightBig, .fadeOut, .fadeOutUp, .fadeOutDown, .fadeOutLeft, .fadeOutRight, .fadeOutUpBig, .fadeOutDownBig, .fadeOutLeftBig, .fadeOutRightBig, .slideInDown, .slideInLeft, .slideInRight, .slideOutUp, .slideOutLeft, .slideOutRight, .bounceIn, .bounceInUp, .bounceInDown, .bounceInLeft, .bounceInRight, .bounceOut, .bounceOutUp, .bounceOutDown, .bounceOutLeft, .bounceOutRight, .rotateIn, .rotateInUpLeft, .rotateInDownLeft, .rotateInUpRight, .rotateInDownRight, .rotateOut, .rotateOutUpLeft, .rotateOutDownLeft, .rotateOutUpRight, .rotateOutDownRight, .lightSpeedIn, .lightSpeedOut, .hinge, .rollIn, .rollOut  {
+	-webkit-animation-name: none !important;
+	-moz-animation-name: none !important;
+	-o-animation-name: none !important;
+	animation-name: none !important;
+	}
+	
+	.story-content, ul#countdown, .timer-text, #parents, #godfathers, #maids, .events h2, .events-button, #ceremony, #party, .registry-text h2, .registry-logos, #album, .rsvp-text h2, .rsvp-text p, #form  {
+		visibility: visible;
+	}
+	
+	#timer, #events, #registry, #rsvp {
+		background-attachment: scroll;
+		z-index: -1000;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- 5. STYLES FOR MOBILE DEVICES - media screen min width: 700px / max width: 768px --*/
+
+
+@media screen  and (max-width: 1200px) {
+	
+
+		
+.parents {
+width: auto;
+height: auto;
+}
+#parents {
+margin-bottom: 4em;
+}
+.parents .overlay {
+width: 170px;
+height: auto;
+}
+#about img{ max-width:100%;}
+
+}
+
+@media screen  and (max-width: 990px){	
+
+}
+
+@media screen  and (max-width: 750px){	
+
+}
+
+@media screen  and (max-width: 600px){	
+
+}
+
+
+@media screen  and (max-width: 992px)  and (min-width: 720px){	
+#parents .col-md-2{ float: left;}
+#about .container{ width:95%;}
+#about img {
+max-width: 98%;
+}
+
+
+.row {
+text-align: center;
+}
+.mapp{display: none;}
+.mapText h3,.mapText h4 {
+text-align: center;
+}
+.mapText .heart.content-style{margin: 2% auto;}
+
+#godfathers .col-md-2{ display:none;}
+#godfathers .col-md-4{ width:50%; float:left;}
+#godfathers .godfathers-text-men p {
+	width:100%;
+}
+
+#godfathers .firstDiv  p {
+	text-align:right;
+}
+
+
+
+
+}
+
+@media screen  and (min-width: 400px)  and (max-width: 720px){	
+#parents .col-md-2{ width: 50%; float: left;}
+#about .container{ width:95%;}
+#about img {
+max-width: 98%;
+}
+#godfathers .col-md-2{ display:none;}
+#godfathers .col-md-4{ width:50%; float:left;}
+#godfathers .godfathers-text-men p {
+	width:100%;
+}
+
+#godfathers .firstDiv  p {
+	text-align:right;
+}
+.row {
+text-align: center;
+}
+.mapp{display: none;}
+.mapText h3,.mapText h4 {
+text-align: center;
+}
+.mapText .heart.content-style{margin: 2% auto;}
+
+}
+
+@media screen  and (max-width: 525px){	
+#countdown .esitc {
+right: 50px;
+}
+
+}
+
+
+@media screen  and (max-width:830px){	
+h1 .esitc  {
+	display:block;
+	line-height: 1.2em;
+	}
+h1{line-height: 1em;
+font-size: 4em;
+}
+
+.datee {
+font-size: 2.5em;
+font-weight: normal;
+}
+
+.header-button {
+margin: 2em auto;
+}
+.gettingMarried {
+margin-top: 20px;
+}
+
+
+}
+
+@media screen  and (max-width:530px){	
+h1{line-height: 1em;
+font-size: 3em;
+}
+
+.datee {
+font-size: 2.5em;
+font-weight: normal;\
+}
+
+.gettingMarried {
+font-size: .8em;
+}
+
+}
+
+
+
+
+
+@media screen  and (max-width: 400px){	
+#parents .col-md-2{ width: 100%; float: left;}
+#about .container{ width:95%;}
+#about img {
+max-width: 98%;
+}
+
+#godfathers .godfathers-text-men p {
+	text-align:center;
+	width: 100%;
+}
+
+.row {
+text-align: center;
+}
+.mapp{display: none;}
+.mapText h3,.mapText h4 {
+text-align: center;
+}
+.mapText .heart.content-style{margin: 2% auto;}
+
+#countdown .esitc {
+right: 12px;
+display: block;
+height: 70px;
+font-size: 5em;
+}
+#countdown .hours {
+margin-left: 0px;
+}
+.headingMain {
+font-size: 3em;
+}
+.datee {
+font-size: 2em;
+}
+
+h1 {
+line-height: 0.5em;
+}
+.header-button {
+font-size: 1em;
+}
+
+
+
+}
